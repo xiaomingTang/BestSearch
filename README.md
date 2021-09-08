@@ -1,3 +1,6 @@
+### 非库非包, 闲人不必看, 看了也浪费时间
+[https://github.com/interstellard/pre_interview](https://github.com/interstellard/pre_interview)
+
 ### 安装及运行
 1. `git clone git@github.com:xiaomingTang/interview-simply-lab-best-search.git`
 2. `yarn`
