@@ -54,7 +54,7 @@ export default function SearchBox({
     <input
       value={value}
       className={Styles.input}
-      placeholder='Enter键搜索'
+      placeholder='Search for new products in 961K stores'
       onKeyPress={onKeyPress}
       onChange={onInputChange}
     />
