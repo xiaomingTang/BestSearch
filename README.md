@@ -8,7 +8,8 @@
 src
 |-- @types
 |-- components # 一些公用组件
-|-- layout
+|-- layout # 布局(可以在此目录下添加更多布局)
+|-- |-- NormalLayout # 当前仅该布局可用
 |-- pages
 |-- |-- Home # 首页
 |-- |-- Search # 搜索页
