@@ -1,0 +1,41 @@
+$input-height: 30px;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  padding: 0 8px;
+  height: $input-height;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+
+  &:focus {
+    border-color: #999;
+  }
+
+  &::placeholder {
+    color: #ccc;
+  }
+}
+
+.btn {
+  flex: 0;
+  height: $input-height;
+  padding: 0 1em;
+  margin-left: .6em;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+
+  &:focus {
+    border-color: #999;
+  }
+}

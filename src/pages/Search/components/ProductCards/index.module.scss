@@ -1,0 +1,22 @@
+.card {
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: box-shadow .5s;
+
+  &:hover {
+    box-shadow: 0 0 20px gray;
+  }
+}
+
+.title,
+.price {
+  padding: 0 10px;
+}
+
+.image {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+}
